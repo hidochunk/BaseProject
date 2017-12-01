@@ -11,7 +11,7 @@ public class aaaTest {
         aaa tri = new aaa(5,5,5);
         String result = tri.getType();
 
-        Assert.assertEquals("不是三角形",result);
+        Assert.assertEquals("鈍角三角形",result);
 
     }
 

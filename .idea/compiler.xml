@@ -4,6 +4,7 @@
     <bytecodeTargetLevel>
       <module name="BaseProject_main" target="1.8" />
       <module name="BaseProject_test" target="1.8" />
+      <module name="repositories-BaseProject_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
