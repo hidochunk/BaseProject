@@ -1,14 +1,13 @@
 package amaze;
 
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-class aaaTest {
+public class aaaTest {
     @Test
-    void getType() {
-        aaa zz = new aaa(3,4,5);
+    public void getType() throws Exception {        aaa zz = new aaa(3,4,5);
         String result = zz.getType();
         Assert.assertEquals("鈍角三角形",result);
     }
